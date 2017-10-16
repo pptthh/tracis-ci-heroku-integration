@@ -4,7 +4,7 @@
   "description": "git - travis-ci - heroku - integration try",
   "main": "app.js",
   "scripts": {
-    "test": "test.js"
+    "test": "mocha"
   },
   "repository": {
     "type": "git",
