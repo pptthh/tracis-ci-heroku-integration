@@ -1,0 +1,28 @@
+{
+  "name": "tracis-ci-heroku-integration",
+  "version": "1.0.0",
+  "description": "git - travis-ci - heroku - integration try",
+  "main": "app.js",
+  "scripts": {
+    "test": "test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pptthh/tracis-ci-heroku-integration.git"
+  },
+  "keywords": [
+    "node.js",
+    "git",
+    "travis-ci",
+    "heroku"
+  ],
+  "author": "Péter",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pptthh/tracis-ci-heroku-integration/issues"
+  },
+  "homepage": "https://github.com/pptthh/tracis-ci-heroku-integration#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
