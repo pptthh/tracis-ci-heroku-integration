@@ -10,4 +10,12 @@ describe('homepage', () => {
     })
 });
 
+describe('author', () => {
+    it('check author',(done) => {
+        request(app).post('/author')
+            .expect(200)
+            .expect(/Péter/, done)
+    })
+});
+
 
