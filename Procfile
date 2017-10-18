@@ -1,1 +1,1 @@
-web: node app.js
+web: node --debug=56789 app.js
